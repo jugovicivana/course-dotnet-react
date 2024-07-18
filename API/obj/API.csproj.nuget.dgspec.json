@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PCX\\Desktop\\course_dotnet_react\\dotnetreact\\API\\API.csproj": {}
+    "C:\\Users\\PCX\\Desktop\\dotnetreact\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PCX\\Desktop\\course_dotnet_react\\dotnetreact\\API\\API.csproj": {
+    "C:\\Users\\PCX\\Desktop\\dotnetreact\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PCX\\Desktop\\course_dotnet_react\\dotnetreact\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\PCX\\Desktop\\dotnetreact\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\PCX\\Desktop\\course_dotnet_react\\dotnetreact\\API\\API.csproj",
+        "projectPath": "C:\\Users\\PCX\\Desktop\\dotnetreact\\API\\API.csproj",
         "packagesPath": "C:\\Users\\PCX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PCX\\Desktop\\course_dotnet_react\\dotnetreact\\API\\obj\\",
+        "outputPath": "C:\\Users\\PCX\\Desktop\\dotnetreact\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PCX\\AppData\\Roaming\\NuGet\\NuGet.Config",
