@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PCX\\dotnetreact\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\PCX\\Desktop\\course_dotnet_react\\dotnetreact\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\PCX\\dotnetreact\\API\\API.csproj",
+      "projectPath": "C:\\Users\\PCX\\Desktop\\course_dotnet_react\\dotnetreact\\API\\API.csproj",
       "packagesPath": "C:\\Users\\PCX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PCX\\dotnetreact\\API\\obj\\",
+      "outputPath": "C:\\Users\\PCX\\Desktop\\course_dotnet_react\\dotnetreact\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PCX\\AppData\\Roaming\\NuGet\\NuGet.Config",
