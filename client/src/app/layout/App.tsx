@@ -1,7 +1,8 @@
-import Catalog from "../../features/catalog/Catalog.tsx";
+// import Catalog from "../../features/catalog/Catalog.tsx";
 import { Container, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import Header from "./Header.tsx";
 import { useState } from "react";
+import { Outlet } from "react-router-dom";
 
 
 function App() {
@@ -17,9 +18,9 @@ function App() {
       mode: paletteType,
       background: {
         default: paletteType==='light'? '#eaeaea' :'#121212'
-      }
+      },
     }
-  })
+  });
 
   function handleThemeChange() {
     setDarkMode(!darkMode);
@@ -30,7 +31,7 @@ function App() {
       <CssBaseline />
       <Header darkMode={darkMode} handleThemeChange={handleThemeChange}/>
       <Container>
-        <Catalog />
+        <Outlet />
       </Container>
     </ThemeProvider>
   );
