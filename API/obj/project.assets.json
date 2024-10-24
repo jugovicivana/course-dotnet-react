@@ -2951,19 +2951,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PCX\\.nuget\\packages\\": {}
+    "C:\\Users\\IVANA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PCX\\Desktop\\dotnetreact\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\IVANA\\Desktop\\dotnetreact\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\PCX\\Desktop\\dotnetreact\\API\\API.csproj",
-      "packagesPath": "C:\\Users\\PCX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PCX\\Desktop\\dotnetreact\\API\\obj\\",
+      "projectPath": "C:\\Users\\IVANA\\Desktop\\dotnetreact\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\IVANA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\IVANA\\Desktop\\dotnetreact\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PCX\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\IVANA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2971,6 +2971,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3028,7 +3029,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
