@@ -9,6 +9,8 @@ import { useStoreContext } from "../context/StoreContext.tsx";
 import agent from "../api/agent.ts";
 import LoadingComponent from "./LoadingComponent.tsx";
 import { getCookie } from "../util/util.ts";
+import { useAppDispatch } from "../store/configureStore.ts";
+import { setBasket } from "../../features/basket/basketSlice.ts";
 
 
 function App() {
@@ -17,21 +19,31 @@ function App() {
   //   {name: 'product1', price: 100.00},
   //   {name: 'product2', price: 200.00},
   // ]);
-  const {setBasket}=useStoreContext();
+  
+  
+  //REACT CONTEXT
+  //const {setBasket}=useStoreContext();
+
+
+  //REDUX CONTEXT 
+  const dispatch=useAppDispatch();
+
+
   const [loading, setLoading]=useState(true);
 
   useEffect(()=>{
     const buyerId=getCookie('buyerId');
     if(buyerId){
       agent.Basket.get()
-      .then(basket=>setBasket(basket))
+      //.then(basket=>setBasket(basket))  REACT CONTEXT
+      .then(basket=>dispatch(setBasket(basket)))
       .catch(error=>console.log(error))
       .finally(()=>setLoading(false))
     }
     else{
       setLoading(false);
     }
-  }, [setBasket])
+  }, [dispatch])
   const [darkMode, setDarkMode]=useState(false);
   const paletteType=darkMode ? 'dark':'light';
   const theme = createTheme({
