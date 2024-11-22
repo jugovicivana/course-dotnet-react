@@ -16,7 +16,7 @@ const sortOptions=[
   {value: 'price', label:'Price - Low to high'},
 ]
 
-// ----------------- 118. LEKCIJA 6:43 -------------------------
+
 
 //destruktuiranje: u {} navodimo propertije koje zelimo da koristimo iz objekta Props
 export default function Catalog() {
