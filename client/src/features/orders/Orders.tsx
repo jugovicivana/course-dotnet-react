@@ -75,6 +75,3 @@ export default function Orders() {
     </TableContainer>
   );
 }
-
-//------------------ 165. lekcija - 1:27 --------------
-// items={order.orderItems ad BasketItem[]}
