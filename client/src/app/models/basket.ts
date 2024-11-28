@@ -9,7 +9,7 @@ export interface Basket {
     productId: number;
     name: string;
     price: number;
-    picture: string;
+    pictureUrl: string;
     brand: string;
     type: string;
     quantity: number;
